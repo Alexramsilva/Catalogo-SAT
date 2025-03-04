@@ -170,11 +170,11 @@ catalogo = [
 df = pd.DataFrame(catalogo)
 
 # Mostrar imagen al inicio (ajusta la ruta o URL de la imagen)
-st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=150)
+st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=350)
 
 
 # Título de la App
-st.title("Catálogo de Cuentas SAT- Universidad Nacional Rosario Castellanos")
+st.title("Catálogo de Cuentas SAT")
 
 # Filtros y búsqueda
 st.sidebar.header("Filtros de búsqueda")
